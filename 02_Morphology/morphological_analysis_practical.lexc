@@ -1,0 +1,60 @@
+Multichar_Symbols
+
+%<n%>       ! Noun
+%<sg%>      ! Singular
+%<pl%>      ! Plural
+%<nom%>     ! Nominative case
+%<gen%>     ! Genitive case
+%<poss%>    ! Possessive
+%>          ! Morpheme boundary
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON Nouns
+
+%<n%>: %<sg%>:%<nom%> # ; ! "कुत्ता" (dog)
+%<n%>: %<pl%>:%<nom%> # ; ! "कुत्ते"
+
+%<n%>: %<sg%>:%<gen%> # ; ! "बाल" (hair)
+%<n%>: %<pl%>:%<gen%> # ; ! "बालें"
+
+%<n%>: %<sg%>:%<poss%> # ; ! "आदमी" (man)
+%<n%>: %<pl%>:%<poss%> # ; ! "लोग"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "गाड़ी" (car)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "गाड़ियाँ"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "मक़ान" (house)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "मक़ानें"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "बच्चा" (child)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "बच्चे"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "फूल" (flower)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "फूल"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "किताब" (book)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "किताबें"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "गर्ल" (girl)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "गर्ल्स"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "बिल्डिंग" (building)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "बिल्डिंगें"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "खिड़की" (window)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "खिड़कियाँ"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "टीचर" (teacher)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "टीचर्स"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "टेलीविज़न" (television)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "टेलीविज़न"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "स्कूल" (school)
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "स्कूलें"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "ट्री" (tree)
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "ट्रीज़"
